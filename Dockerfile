@@ -9,6 +9,6 @@ RUN apt-get install --quiet --yes \
   wims-help \
   wims-java-applets \
   wims-modules \
-  wims-moodle
+  wims-moodle \
   git \
   wget
