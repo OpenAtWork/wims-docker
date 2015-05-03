@@ -7,7 +7,7 @@ RUN echo "deb http://archive.ubuntu.com/ubuntu trusty main restricted universe m
  && apt-key adv --keyserver keyserver.ubuntu.com --recv-keys C300EE8C \
  && apt-get update --quiet \
  && apt-get install --quiet --yes \
-  wims 
+  wims \
   wims-extra-all \
   wims-help \
   wims-java-applets \
