@@ -6,6 +6,7 @@ ENV DEBIAN_FRONTEND noninteractive
 RUN echo "deb http://archive.ubuntu.com/ubuntu trusty main restricted universe multiverse" >> /etc/apt/sources.list \
  && apt-key adv --keyserver keyserver.ubuntu.com --recv-keys C300EE8C \
  && apt-get update --quiet \
+ && apt-get install --quiet --yes \
   wims 
 #  wims-extra-all \
 #  wims-help \
