@@ -1,4 +1,4 @@
-FROM debian
+FROM ubuntu:10.04
 
 ENV DEBIAN_FRONTEND noninteractive
 
