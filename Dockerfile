@@ -8,10 +8,10 @@ RUN echo "deb http://archive.ubuntu.com/ubuntu trusty main restricted universe m
  && apt-get update --quiet \
  && apt-get install --quiet --yes \
   wims 
-#  wims-extra-all \
-#  wims-help \
-#  wims-java-applets \
-#  wims-modules \
-#  wims-moodle \
-#  git \
-#  wget
+  wims-extra-all \
+  wims-help \
+  wims-java-applets \
+  wims-modules \
+  wims-moodle \
+  git \
+  wget
